@@ -21,10 +21,11 @@ os.environ["GROQ_API_KEY"] = ""
 # Ensure your .env file has the GROQ_API_KEY for embeddings
 load_dotenv()
 
-
+#one file should be uploaded atleast
 # Define the paths for your documents
-pdf_file_path = "NEP_Final_English_0.pdf"
-docx_file_path = "NEP_Final_English_0.docx"
+pdf_file_path = ""  #place the name of the pdf file if uploaded
+docx_file_path = "" #place the name of the doc file if uploaded
+
 
 # List to hold all documents loaded from any source
 all_documents = []
@@ -154,7 +155,7 @@ print("Enter 'quit' or 'exit' to stop the program.\n")
 
 while True:
     # Get user input
-    question = input("Your question (e.g., what are the regulations for grade 3?): ")
+    question = input("Your question : ")
 
     # Check for exit command
     if question.lower() in ['quit', 'exit']:
