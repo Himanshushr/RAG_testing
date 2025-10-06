@@ -1,0 +1,7 @@
+langchain
+langchain-groq
+langchain-community
+langchain-core
+faiss-cpu
+unstructured[docx]
+pypdf
